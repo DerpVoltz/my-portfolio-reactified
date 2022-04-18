@@ -9,16 +9,16 @@ function Navigation(props) {
         <div>
             <ul>
                 <li>
-                    <span onClick={() => setNavSelected('about')}>About Me</span>
+                    <span onClick={() => setNavSelected('About Me')}>About Me</span>
                 </li>
                 <li>
-                    <span onClick={() => setNavSelected('projects')}>Projects</span>
+                    <span onClick={() => setNavSelected('Portfolio')}>Portfolio</span>
                 </li>
                 <li>
-                    <span onClick={() => setNavSelected('contact')}>Contact Me</span>
+                    <span onClick={() => setNavSelected('Contact Me')}>Contact Me</span>
                 </li>
                 <li>
-                    <span onClick={() => setNavSelected('resume')}>Resume</span>
+                    <span onClick={() => setNavSelected('Resume')}>Resume</span>
                 </li>
             </ul>
         </div>
