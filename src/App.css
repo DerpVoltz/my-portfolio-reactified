@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+:root {
+  --primary: #222E50;
+  --secondary: #508CA4;
+  --ternary: #D2FDFF;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-color: var(--primary);
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  background-image: url('./assets/images/hero-background.jpg');
+  color: var(--ternary);
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  font-size: 22px;
+}
+
+main {
+  color: var(--ternary);
+}
+
+.project {
+  height: 200px;
+}
+
+
+.card {
+  background-color: var(--secondary);
+  width: 300px;
+}
+
+.card img {
+  height: 100px;
+  
+}
+
+.my-img {
+  height: 200px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+a {
+  color: var(--ternary);
+  margin-right: 5px;
+}
+
+footer {
+  font-size: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* 
+img {
+  max-width: 200px;
+  height: 100px;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .header-items {
+  display: flex;
+  align-items: end;
+} */

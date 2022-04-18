@@ -1,4 +1,5 @@
-import { React, useState } from "react";
+import '../../App.css'
+import React, { useState, useEffect } from "react";
 import AboutMe from "../AboutMe";
 import Resume from "../Resume";
 import Portfolio from "../Portfolio";
@@ -7,15 +8,20 @@ import ContactForm from "../ContactForm";
 import Footer from "../Footer";
 
 function Header() {
+    useEffect(() => {
+        document.title = `${navSelected}`
+    })
     const [ navSelected, setNavSelected ] = useState('About Me');
 
     return(
         <div>
-            <div>
-                <h1>My Portfolio</h1>
-                <Navigation setNavSelected={setNavSelected} />
-            </div>
-            <div>
+            <header className='container-fluid'>
+                <div className='header-items row'>
+                    <h1 className='col'>Zane Scheel</h1>
+                    <Navigation setNavSelected={setNavSelected} />
+                </div>
+            </header>
+            <main className='container'>
                 {
                     (navSelected === 'About Me') ? (
                         <AboutMe />
@@ -27,8 +33,10 @@ function Header() {
                         <Portfolio />
                     )
                 }
+            </main>
+            <footer>
                 <Footer />
-            </div>
+            </footer>
         </div>
     )
 }
