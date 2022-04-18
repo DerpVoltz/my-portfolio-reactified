@@ -6,7 +6,7 @@ import Navigation from "../Navigation";
 import ContactForm from "../ContactForm";
 
 function Header() {
-    const [ navSelected, setNavSelected ] = useState('about');
+    const [ navSelected, setNavSelected ] = useState('About Me');
 
     return(
         <div>
