@@ -4,6 +4,7 @@ import Resume from "../Resume";
 import Portfolio from "../Portfolio";
 import Navigation from "../Navigation";
 import ContactForm from "../ContactForm";
+import Footer from "../Footer";
 
 function Header() {
     const [ navSelected, setNavSelected ] = useState('About Me');
@@ -26,6 +27,7 @@ function Header() {
                         <Portfolio />
                     )
                 }
+                <Footer />
             </div>
         </div>
     )
