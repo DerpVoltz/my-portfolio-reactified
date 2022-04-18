@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-reactified/static/css/main.c0854b96.css",
+    "main.js": "/my-portfolio-reactified/static/js/main.211d9600.js",
+    "static/js/787.3682c65b.chunk.js": "/my-portfolio-reactified/static/js/787.3682c65b.chunk.js",
+    "static/media/hero-background.jpg": "/my-portfolio-reactified/static/media/hero-background.d0df05ff8b83b294de12.jpg",
+    "static/media/screenshot.png": "/my-portfolio-reactified/static/media/screenshot.176326c856f9877ceeac.png",
+    "static/media/Run Buddy.png": "/my-portfolio-reactified/static/media/Run Buddy.ad80ba5edaa379717a3c.png",
+    "static/media/Homework Tracker.png": "/my-portfolio-reactified/static/media/Homework Tracker.89d6fd516fad20c82e0c.png",
+    "static/media/Weather Dashboard.png": "/my-portfolio-reactified/static/media/Weather Dashboard.bfcbd0e9bd7ead7ef9ea.png",
+    "static/media/my-photo.JPG": "/my-portfolio-reactified/static/media/my-photo.7f0be0969709af296286.JPG",
+    "static/media/Park Finder.png": "/my-portfolio-reactified/static/media/Park Finder.0f90af14081f40c551e4.png",
+    "static/media/Robot Gladiators.png": "/my-portfolio-reactified/static/media/Robot Gladiators.e2f5921eab33ece8b56d.png",
+    "index.html": "/my-portfolio-reactified/index.html",
+    "main.c0854b96.css.map": "/my-portfolio-reactified/static/css/main.c0854b96.css.map",
+    "main.211d9600.js.map": "/my-portfolio-reactified/static/js/main.211d9600.js.map",
+    "787.3682c65b.chunk.js.map": "/my-portfolio-reactified/static/js/787.3682c65b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0854b96.css",
+    "static/js/main.211d9600.js"
+  ]
+}
