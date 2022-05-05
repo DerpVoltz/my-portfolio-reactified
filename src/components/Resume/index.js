@@ -15,7 +15,6 @@ function Resume() {
                 <li>Mongo</li>
                 <li>React</li>
                 <li>BootStrap</li>
-                <li>AJAX</li>
             </ul>
         </div>
     )

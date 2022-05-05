@@ -5,7 +5,7 @@ function AboutMe() {
     return(
         <div>
             <h1>About Me</h1>
-            <img className="my-img" alt="Picture of Zane Scheel" src={require('../../assets/images/my-photo.JPG')} />
+            <img className="my-img" alt="Zane Scheel" src={require('../../assets/images/my-photo.JPG')} />
             <p>
             Full-stack web developer, working towards a full-stack developer certificate from Rice University/2U. Learned skills in JavaScript, HTML, CSS,
             and Node.js. Known as a problem solver, and team player that can assist teammates, as well as complete what was assigned to me.
