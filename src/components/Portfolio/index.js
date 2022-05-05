@@ -27,6 +27,11 @@ function Portfolio() {
             name: 'Homework Tracker',
             website: 'https://github.com/DaniDelia253/homework-tracker',
             github: 'https://quiet-island-37482.herokuapp.com/',
+        },
+        {
+            name: 'News For You',
+            website: 'https://nameless-fjord-29662.herokuapp.com/',
+            github: 'https://github.com/DerpVoltz/news-for-you'
         }
     ]
 
